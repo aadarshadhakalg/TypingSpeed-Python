@@ -54,6 +54,7 @@ def stop():
         while counter < len(Text):
             if Text[counter]==Text1[counter]:
                 error=error+0
+                counter=counter+1
             else:
                 error=error+1
                 counter=counter+1
@@ -63,6 +64,7 @@ def stop():
         while counter < len(Text1):
             if Text[counter]==Text1[counter]:
                 error=error+0
+                counter=counter+1
             else:
                 error=error+1
                 counter=counter+1
