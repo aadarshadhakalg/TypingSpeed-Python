@@ -58,7 +58,7 @@ def main():
 			#This block creates a temporary file to store typed text.
 
 			sample=("Namaste! Nepal is a beautiful country situated in South Asia. (Heaven is myth, Nepal is real)")
-			print(len(sample))
+			print(sample)
 			t1 = time.perf_counter()
 
 			text=input("Please type above text here: ")
